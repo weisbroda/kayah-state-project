@@ -1,0 +1,12 @@
+/* Initial state: Text is invisible and slightly moved */
+.fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  /* When the element becomes visible */
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
