@@ -757,11 +757,13 @@ figcaption {
 #header .logo img {
   display: block;
   max-height: 40px;
+	width: auto;
 }
 
 @media (max-width: 768px) {
   #header .logo img {
     max-height: 30px;
+	  width: auto;
   }
 }
 
